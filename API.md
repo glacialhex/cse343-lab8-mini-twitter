@@ -100,4 +100,6 @@ The response is `201 Created` with the new comment object.
 
 ## Postman
 
-Import [Mini-Twitter.postman_collection.json](Mini-Twitter.postman_collection.json) and select the **CSE343 Mini-Twitter** collection. Its `baseUrl` variable defaults to the server on port 3000. Run **Create post** before the remaining requests so the collection can reuse the returned `postId`. Run **Delete a post** last.
+Import [Mini-Twitter.postman_collection.json](Mini-Twitter.postman_collection.json) into a Postman workspace and select the **CSE343 Mini-Twitter** collection. Its `baseUrl` variable defaults to the server on port 3000. Run **Create post** before the remaining requests so the collection can reuse the returned `postId`. Run **Delete a post** last.
+
+In Postman Local Mode, open an HTTP request tab and enter the method, URL, and JSON from the examples above. Select **Body → raw → JSON** for requests that send a body.
